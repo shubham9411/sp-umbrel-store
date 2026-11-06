@@ -1,6 +1,7 @@
 version: "3.7"
 
 services:
+
   app_proxy:
     environment:
       APP_HOST: my-store-coolify_web_1
@@ -9,8 +10,6 @@ services:
   web:
     image: ghcr.io/coollabsio/coolify:latest
     restart: on-failure
-    ports:
-      - "8000:8000"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${APP_DATA_DIR}/data/coolify:/data/coolify

@@ -2,8 +2,8 @@ manifestVersion: 1
 id: my-store-coolify
 name: Coolify
 tagline: An open-source, self-hostable Heroku / Netlify / Vercel alternative
-icon: https://cdn.coollabs.io/assets/coolify/coolify-transparent-rectangle-logo.svg
-category: developer-tools
+icon: https://svgur.com/i/mvA.svg
+category: developer
 version: "4.0.0"
 port: 8000
 description: >-
@@ -12,16 +12,17 @@ description: >-
   to your own server with a beautiful UI — no vendor lock-in required.
 developer: Coollabs
 website: https://coolify.io
+submitter: SP Store
+submission: https://github.com/coollabsio/coolify
 repo: https://github.com/coollabsio/coolify
 support: https://github.com/coollabsio/coolify/issues
 gallery:
-  - https://coolify.io/screenshots/dashboard.png
-  - https://coolify.io/screenshots/projects.png
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release of Coolify for the SP Store.
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: >-
-  Initial release of Coolify for the SP Store.
-submitter: SP Store
-submission: https://github.com/coollabsio/coolify
