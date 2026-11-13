@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: my-store-earthwalker
+category: games
+name: Earthwalker
+icon: "https://raw.githubusercontent.com/shubham9411/sp-umbrel-store/main/my-store-earthwalker/icon.svg"
+version: "1.0.0"
+tagline: A self-hosted Street View guessing game
+ description: |-
+  Earthwalker is an open-source geography game inspired by GeoGuessr. Explore a Street View location and compete with friends to guess where you are.
+
+developer: Glatteis
+website: https://gitlab.com/glatteis/earthwalker
+dependencies: []
+repo: https://gitlab.com/glatteis/earthwalker
+support: https://gitlab.com/glatteis/earthwalker/-/issues
+port: 8080
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+deterministicPassword: false
+torOnly: false
+submitter: SP Store
+submission: https://gitlab.com/glatteis/earthwalker
+releaseNotes: ""
